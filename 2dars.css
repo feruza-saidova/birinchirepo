@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #fafcff;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  padding: 0px 136px;
+}
+.nav__menu {
+  width: 700px;
+  height: 100%;
+  list-style-type: none;
+}
+.nav__menu > li {
+  font-size: 16px;
+  font-weight: 700;
+  color: #666666;
+}
+.nav__logo {
+  color: #4579cb;
+}
+.explore__btn {
+  width: 170px;
+  height: 50px;
+  background-color: #4579cb;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+.main__section {
+  width: 100%;
+  height: 80vh;
+  background-image: url("./bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+.main__content {
+  text-align: center;
+}
+.main__title {
+  font-size: 56px;
+  color: #474747;
+  width: 1100px;
+  margin: auto;
+  line-height: 80px;
+  letter-spacing: 2px;
+}
+.main__title > span {
+  color: #4579cb;
+}
+.main__description {
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  width: 828px;
+  margin: 40px auto;
+}
+.main__link {
+  margin: 20px 0 0 0;
+}
+.fa-youtube {
+  color: #eb5757;
+  margin-right: 10px;
+  font-size: 24px;
+}
+.trusted {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.trusted > p {
+  width: 875px;
+  color: #666666;
+  margin: 20px auto;
+}
+.imgs_wrp {
+  width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  margin: 20px 0;
+}
+.dots {
+  width: 80px;
+  height: 20px;
+  margin: auto;
+}
+.dots > span {
+  width: 16px;
+  height: 16px;
+  background-color: #e6e6e6;
+  border-radius: 50%;
+}
+.dots > span:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  background-color: #4579cb;
+}
+.platform {
+  width: 100%;
+  height: 80vh;
+  padding: 0 136px;
+}
+.platform > img {
+  width: 600px;
+  height: 100%;
+  object-fit: contain;
+}
+.platform_info {
+  width: 570px;
+}
+.platform_info > p{
+    line-height: 24px;
+    font-size: 16px;
+    margin: 30px 0;
+}
